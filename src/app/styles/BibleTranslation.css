@@ -1,0 +1,15 @@
+.bible-translation {
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.bible-translation h1 {
+    font-size: 2.5rem;
+    color: #006400;
+}
+
+.bible-translation p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}

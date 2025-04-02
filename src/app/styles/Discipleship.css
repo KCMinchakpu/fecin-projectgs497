@@ -1,0 +1,15 @@
+.discipleship {
+    padding: 20px;
+    background-color: #fffaf0;
+    color: #333;
+}
+
+.discipleship h1 {
+    font-size: 2.5rem;
+    color: #8b0000;
+}
+
+.discipleship p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}

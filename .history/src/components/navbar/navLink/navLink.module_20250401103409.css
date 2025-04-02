@@ -1,0 +1,10 @@
+.container {
+    padding: 8px;
+    text-align: center;
+    
+}
+
+.active {
+    background-color: var(--text);
+    color: var(--btn);
+}

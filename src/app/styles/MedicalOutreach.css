@@ -1,0 +1,15 @@
+.medical-outreach {
+    padding: 20px;
+    background-color: #f0fff0;
+    color: #333;
+}
+
+.medical-outreach h1 {
+    font-size: 2.5rem;
+    color: #228b22;
+}
+
+.medical-outreach p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}

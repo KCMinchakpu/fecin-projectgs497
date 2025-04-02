@@ -1,0 +1,40 @@
+:root {
+    --bg: #0c2f43;
+    --text: white;
+    --bgSoft: #091f2c;
+    --textSoft: rgb(237, 232, 232);
+    --btn: #de3c21;
+    --bgWhite: white;
+    --textGray: #444444;
+}
+
+/* Box sizing rules */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+  }
+
+/* Set core body defaults */
+body {
+    background-color: var(--bgWhite);
+    color: var(--text);
+  }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+  background-color: var(--bg);
+  width: 100%; /* Default for small screens */
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
