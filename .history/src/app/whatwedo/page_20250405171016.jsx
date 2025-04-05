@@ -51,7 +51,6 @@ const WhatWeDoPage = () => {
               <div className={styles.icon}>{service.icon}</div>
               <h3 className={styles.title}>{service.title}</h3>
               <p className={styles.description}>{service.description}</p>
-              <button className={styles.button}>Read More</button>
             </div>
           ))}
         </div>

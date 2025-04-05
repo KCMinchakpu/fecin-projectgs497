@@ -20,24 +20,6 @@ const services = [
       'Providing spiritual, educational, and material support to members and communities in need.',
     icon: '🤝',
   },
-  {
-    title: 'Youth & Children Ministry',
-    description:
-      'Mentoring young believers through Bible study, discipleship, and fun faith-filled activities.',
-    icon: '👨‍👩‍👧‍👦',
-  },
-  {
-    title: 'Leadership Development',
-    description:
-      'Equipping church leaders and members with training to serve faithfully and effectively.',
-    icon: '🎓',
-  },
-  {
-    title: 'Charity & Relief Services',
-    description:
-      'Organizing relief efforts to provide food, clothing, and healthcare to those in need.',
-    icon: '🧺',
-  },
 ];
 
 const WhatWeDoPage = () => {
@@ -51,7 +33,6 @@ const WhatWeDoPage = () => {
               <div className={styles.icon}>{service.icon}</div>
               <h3 className={styles.title}>{service.title}</h3>
               <p className={styles.description}>{service.description}</p>
-              <button className={styles.button}>Read More</button>
             </div>
           ))}
         </div>
