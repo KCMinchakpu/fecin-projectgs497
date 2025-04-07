@@ -31,7 +31,7 @@ const services = [
     description:
       'Mentoring young believers through Bible study, discipleship, and fun faith-filled activities.',
     icon: '👨‍👩‍👧‍👦',
-    link: '/youth-ministry',
+    link: '/youth-children-ministry',
   },
   {
     title: 'Leadership Development',

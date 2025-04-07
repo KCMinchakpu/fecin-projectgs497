@@ -22,7 +22,7 @@ const services = [
   {
     title: 'Community Engagement',
     description:
-      'Providing spiritual, and material support to members and communities in need.',
+      'Providing spiritual, educational, and material support to members and communities in need.',
     icon: '🤝',
     link: '/community-engagement',
   },
@@ -31,7 +31,7 @@ const services = [
     description:
       'Mentoring young believers through Bible study, discipleship, and fun faith-filled activities.',
     icon: '👨‍👩‍👧‍👦',
-    link: '/youth-ministry',
+    link: '/youth-children-ministry',
   },
   {
     title: 'Leadership Development',

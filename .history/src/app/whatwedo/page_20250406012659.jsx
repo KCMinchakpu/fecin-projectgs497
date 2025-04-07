@@ -17,35 +17,35 @@ const services = [
     description:
       'Translating the Bible into local languages and distributing copies to communities in need.',
     icon: '📚',
-    link: '/bible-translation',
+    link: '/bibletranslation',
   },
   {
     title: 'Community Engagement',
     description:
       'Providing spiritual, and material support to members and communities in need.',
     icon: '🤝',
-    link: '/community-engagement',
+    link: '/communityengagement',
   },
   {
     title: 'Youth & Children Ministry',
     description:
       'Mentoring young believers through Bible study, discipleship, and fun faith-filled activities.',
     icon: '👨‍👩‍👧‍👦',
-    link: '/youth-ministry',
+    link: '/youthministry',
   },
   {
     title: 'Leadership Development',
     description:
       'Equipping church leaders and members with training to serve faithfully and effectively.',
     icon: '🎓',
-    link: '/leadership-development',
+    link: '/leadershipdevelopment',
   },
   {
     title: 'Medical & Humanitarian Aid',
     description:
       'Organizing relief efforts to provide food, clothing, and healthcare to those in need.',
     icon: '🧺',
-    link: '/humanitarian-aid',
+    link: '/humanitarianaid',
   },
 ];
 
