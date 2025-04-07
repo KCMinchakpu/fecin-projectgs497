@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import styles from './Humanitarian.module.css';
+import styles from './MedicalOutreach.module.css';
 
 export default function MedicalAidPage() {
   const [form, setForm] = useState({

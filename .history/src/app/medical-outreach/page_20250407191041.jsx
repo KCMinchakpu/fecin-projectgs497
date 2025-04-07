@@ -1,14 +1,14 @@
 'use client';
 
 import { useState } from 'react';
-import styles from './Humanitarian.module.css';
+import styles from './MedicalAid.module.css';
 
 export default function MedicalAidPage() {
   const [form, setForm] = useState({
     name: '',
     email: '',
     phone: '',
-    type: 'volunteer', 
+    type: 'volunteer', // volunteer | donor | request
     message: '',
   });
 
