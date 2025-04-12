@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .imgContainer {
+    flex: 1;
+    height: 500px;
+    position: relative;
+  }
+  
+  .img {
+    object-fit: contain;
+  }
+  
+  .formContainer {
+    flex: 1;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form input,
+  .form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: var(--bgSoft);
+    color: var(--text);
+  }
+  
+  .form button {
+    padding: 10px;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .form button:hover {
+    background-color: #046a81;
+  }
+
+  @media (min-width: 480px) {
+    .Container {
+      flex-direction: column;
+    }
+  }
+
+  .description {
+    text-align: center;
+    margin-bottom: 2rem;
+  }

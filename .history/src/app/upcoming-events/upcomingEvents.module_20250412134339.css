@@ -1,0 +1,49 @@
+
+.eventsSection {
+  padding: 40px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.eventsTitle {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.eventsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 0 10px;
+}
+
+.eventCard {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 350px;
+  text-align: left;
+}
+
+.eventName {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.eventDate {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.eventDesc {
+  font-size: 1rem;
+  color: #555;
+}
