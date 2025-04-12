@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import { useSession } from "next-auth/react";
 import Image from 'next/image';
 import NavLink from "../navLink/NavLink"; 
 import styles from "./links.module.css";
@@ -16,9 +15,10 @@ const links = [
 
 const Links = () => {
   const [open, setOpen] = useState(false);
-  const { data: session, status } = useSession();
 
-  const isAdmin = session?.user?.role === "admin";
+  // Temporary 
+  const session = true;
+  const isAdmin = true;
 
   return (
     <div className={styles.container}>
@@ -27,18 +27,16 @@ const Links = () => {
           <NavLink item={link} key={link.title} />
         ))}
 
-        {!session && status !== "loading" && (
+        {!session && (
           <NavLink item={{ title: "Login", path: "/login" }} />
         )}
 
-        {session && isAdmin && (
+         {session && isAdmin && (
           <NavLink item={{ title: "Admin", path: "/admin" }} />
         )}
 
         {session && (
-          <form method="post" action="/api/auth/signout">
-            <button className={styles.logout}>Logout</button>
-          </form>
+          <button className={styles.logout}>Logout</button>
         )}
       </div>
 
