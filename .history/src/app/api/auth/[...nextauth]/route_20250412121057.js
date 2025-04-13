@@ -4,7 +4,7 @@ import dbConnect from '@/lib/dbConnect';
 import User from '@/models/User';
 import bcrypt from 'bcryptjs';
 
-const authOptions = NextAuth({
+const handler = NextAuth({
   providers: [
     CredentialsProvider({
       name: 'Credentials',
@@ -44,5 +44,5 @@ const authOptions = NextAuth({
   secret: process.env.NEXTAUTH_SECRET,
 });
 
-export { authOptions as GET, authOptions as POST };
+export { handler as GET, handler as POST };
 // This code sets up authentication using NextAuth with a credentials provider. It connects to a MongoDB database,
