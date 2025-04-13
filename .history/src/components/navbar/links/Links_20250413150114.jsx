@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { useSession } from "next-auth/react";
 import Image from 'next/image';
-import NavLink from "./navLink/navLink"; 
+import navLink from "./navLink/navLink"; 
 import styles from "./links.module.css";
 
 const links = [
@@ -28,15 +28,15 @@ const Links = () => {
     <div className={styles.container}>
       <div className={styles.links}>
         {links.map((link) => (
-          <NavLink item={link} key={link.title} />
+          <navLink item={link} key={link.title} />
         ))}
 
         {!session && status !== "loading" && (
-          <NavLink item={{ title: "Login", path: "/login" }} />
+          <navLink item={{ title: "Login", path: "/login" }} />
         )}
 
         {session && isAdmin && (
-          <NavLink item={{ title: "Admin", path: "/admin" }} />
+          <navLink item={{ title: "Admin", path: "/admin" }} />
         )}
 
         {session && (
@@ -58,7 +58,7 @@ const Links = () => {
       {open && (
         <div className={styles.mobileLinks}>
           {links.map((link) => (
-            <NavLink item={link} key={link.title} />
+            <navLink item={link} key={link.title} />
           ))}
         </div>
       )}
