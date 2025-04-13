@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { useSession } from "next-auth/react";
 import Image from 'next/image';
-import NavLink from "../navLink/navLink"; 
+import NavLink from "./NavLink/NavLink"; 
 import styles from "./links.module.css";
 
 const links = [
