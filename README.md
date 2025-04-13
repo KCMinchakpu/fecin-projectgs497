@@ -16,4 +16,9 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+1. Remember to install all the dependencies mentioned in the package.json file.
+2. You must have installed NodeJS on your sytem, if you have not, install it from here: https://nodejs.org/en/
+3. You can download the complete project from my GitHub page or fork it from here: https://github.com/KCMinchakpu/fecin-projectgs497.git
+4. You can view the complete project on Vercel: https://fecin-projectgs497.vercel.app/
+
 
